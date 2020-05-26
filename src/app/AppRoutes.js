@@ -13,6 +13,7 @@ import Messages from '../pages/Messages'
 import Interviews from '../pages/Interviews'
 import Reports from '../pages/Reports'
 import Setting from '../pages/Setting'
+import Profile from '../pages/Profile'
 
 export const history = createHistory()
 
@@ -22,6 +23,7 @@ function AppRoutes() {
 			<Switch>
 				<PublicRoute exact path='/login' component={Login} />
 
+				<PrivateRoute exact path='/profile' component={Profile} />
 				<PrivateRoute exact path='/setting' component={Setting} />
 				<PrivateRoute exact path='/reports' component={Reports} />
 				<PrivateRoute exact path='/interviews' component={Interviews} />

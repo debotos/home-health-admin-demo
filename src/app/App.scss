@@ -153,6 +153,10 @@ th {
 	}
 }
 
+.ant-dropdown.ant-dropdown-placement-bottomRight {
+	min-width: 120px !important;
+}
+
 /* Override via custom antd class */
 .mobile-working-hour-input-collapse {
 	.ant-collapse-content-box {

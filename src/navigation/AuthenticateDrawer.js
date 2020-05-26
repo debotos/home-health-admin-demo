@@ -18,6 +18,7 @@ import { setCurrentUser } from '../redux/actions/authActions'
 function AuthenticateDrawer({ closeDrawer, setUser, auth, desktop }) {
 	const handleLogoff = () => {
 		const hide = message.loading('Logging off...', 0)
+		/* TODO: */
 		/* Remove from server side via ajax call */
 		// When ajax finished then do the followings -
 		/* Remove data from local storage */
